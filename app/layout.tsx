@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-gradient-to-br from-gray-900 via-black to-gray-900 scrollbar-width-none" style={{ scrollbarWidth: 'none' }}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
