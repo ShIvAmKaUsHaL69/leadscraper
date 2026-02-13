@@ -29,7 +29,7 @@ export default function Home() {
     }
 
     // Fire off the request in the background (don't wait for response)
-    fetch('https://ai.shivamkaushal.site/webhook/scrape', {
+    fetch('https://ai.kaushalshivam.site/webhook/scrape', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
